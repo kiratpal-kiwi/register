@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        nav{
+
+    text-align:center;
+    font-family:myFirstFont;
+    display:inline-block;
+    position:absolute;
+    left:320px;
+    top:56px;
+}
+
+.navigation {
+    list-style-type:none;
+    word-spacing:50px;
+    max-width:100%;
+    font-size:1.2em;
+    position:relative;
+
+}
+
+.navigation li {
+    display:inline-block;
+    position:relative;
+}
+
+.navigation a{
+    text-decoration:none;
+    color:#00a8e7;
+}
+
+
+.navigation ul {
+    position:absolute;
+    text-align:justify;
+
+}
+
+ul.inner li {
+    display:none;
+    position:relative;
+    right:40px;
+
+
+}
+
+.navigation li:hover ul.inner li{
+    display:block
+}
+    </style>
+</head>
+<body>
+    <nav>
+            <ul class="navigation">
+                <li><a href="#">ABOUT</a>
+                <ul class="inner">
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">TEAM</a></li>
+                </ul>
+
+                </li>
+                <li><a href="#">SERVICES</a>
+                  <ul class="inner">
+                      <li><a href="#">WEBSITE</a></li>
+                      <li><a href="#">SEO</a></li>
+                      <li><a href="#">LOGO</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">PORTFOLIO</a>
+                    <ul class="inner">
+                        <li><a href="#">WEBSITES</a></li>
+                        <li><a href="#">LOGO DESIGN</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACT</a>
+                    <ul class="inner">
+                        <li><a href="#">PHONE</a></li>
+                        <li><a href="#">EMAIL</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TESTIMONIALS</a></li>
+            </ul>
+        </nav>
+</body>
+</html>
